@@ -1,0 +1,83 @@
+p{
+	margin: 0px;
+}
+body{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin: 0;
+	background-image: url(../images/backGround.jpg); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 2000px 1000px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#banner{
+	height: 50px;
+	border: solid 1px black;
+	padding: 10px;
+	position: fixed;
+	width: 99%;
+	background-color:white;
+	top: 0;
+}
+#banner p {
+	margin: 1px 30px ;
+	display: block;
+	float: left;
+	font-size: 40px;
+}
+#icon{
+	height: 100%;
+	float: left;
+}
+#banner nav{
+	float: right;
+}
+#banner nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 5px 10px;
+	font-size: 17px;
+}
+#banner nav ul {
+	margin: 30px 0px 0px 0px;
+}
+
+#content{
+	clear: both;
+	margin: 0 auto;
+	width: 400px;
+	font-size: 50px;
+	position: relative;
+	color: white;
+	top: 300px;
+	text-align: center;
+
+}
+
+#homeText{
+	font-size: 60px;
+	text-shadow: 2px 2px black;	
+}
+
+#comment{
+	font-size: 20px;
+}
+#buttons{
+	padding-left: 28px;
+}
+.button{
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	border-radius: 2px;
+	margin: 20px;
+	width: 120px;
+	height: 50px;
+	font-size: 40px;
+	float:left;
+
+}
