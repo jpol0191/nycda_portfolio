@@ -45,3 +45,22 @@ a{
 #banner nav ul {
 	margin: 30px 0px 0px 0px;
 }
+
+#content{
+	position: relative;
+	top: 400px;
+	width: 900px;
+	color: white;
+	margin: 0 auto;
+}
+
+#projectBox{
+	width: 100px;
+	font-size: 25px;
+	text-align: center;
+}
+
+hr{
+	margin: 0 auto;
+	width: 90px;
+}
